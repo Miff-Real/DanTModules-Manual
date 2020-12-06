@@ -6,7 +6,7 @@ This plugin contains free modules for VCV Rack developed by [DanT](https://www.d
 
 If you encounter any bugs or issues with this plugin or its modules, please raise an [issue](https://github.com/Miff-Real/DanTModules-Manual/issues) in this GitHub repository.
 
-I would love to see anything you create with this plugin, tag your creations with `#dantmodules` & and the name of the modules used.
+I would love to see anything you create with this plugin, tag your creations with `#dantmodules` & and the name of the modules used. On Instagram you can also directly tag me [@dant.synth](https://www.instagram.com/dant.synth/)
 
 If you feel generous or want to motivate me to further develop this plugin, you may [donate here](https://monzo.me/danieltilley2).
 
@@ -42,7 +42,7 @@ In the initialized state, the module has 4 active points, `A = 0`, `B = 1`, `C =
 
 As you can see in the Visualization Screen, this generates a triangle waveform, which is output at the default pitch of `C4` at full Amplitude of `+-5` volts.
 
-All the inputs allow CV control of the associated control.
+All the inputs allow CV control of the associated parameter.
 
 The Amplitude control can be used as a built in VCA. The Amplitude value is `+-100%` so this control can be used to invert the output waveform.
 
@@ -79,3 +79,15 @@ The EOC output sends a `+10` volt trigger at the end of every waveform cycle.
 The cycle length is determined by the sample rate and the frequency.
 
 This output can be used to sync other modules to the output waveform. For example, this can be used as an external trigger for the VCV Scope module to prevent the waveform display from phasing.
+
+#### Avoiding Clicks & Pops
+
+Currently, this module does not implement any processing of the input CV. Because of this, abrupt changes in CV values could potentially cause clicks in the output audio.
+
+The are a few ways to counteract this:
+
+* Only input CV that has smooth modulation
+* Use a Slew Limiter before the CV inputs to smooth out abrupt changes
+* Use an envelope with a small amount of attack on either the CV input or the Amplitude, when the CV changes (This might be on a certain clock for example)
+
+I am considering implementing built-in slew for this module to remove the possibility of generating clicks in the output. If you would like to encourage this you can let me know via an [issue](https://github.com/Miff-Real/DanTModules-Manual/issues), via the [VCV Rack Community](https://community.vcvrack.com/t/dantmodules-v1-0-0-release-wavulike/11776), or via my [Instagram](https://www.instagram.com/dant.synth/)
