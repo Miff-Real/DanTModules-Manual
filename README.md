@@ -80,14 +80,27 @@ The cycle length is determined by the sample rate and the frequency.
 
 This output can be used to sync other modules to the output waveform. For example, this can be used as an external trigger for the VCV Scope module to prevent the waveform display from phasing.
 
-#### Avoiding Clicks & Pops
+#### LFO Mode
 
-Currently, this module does not implement any processing of the input CV. Because of this, abrupt changes in CV values could potentially cause clicks in the output audio.
+This module has two modes of operation:
+* VCO Mode
+  * Standard mode, outputs a generated waveform at the frequency specified by the Frequency knob and the Volt per Octave input
+* LFO Mode
+  * Exactly the same as VCO Mode, except the output frequency is reduced by a factor of 100
 
-The are a few ways to counteract this:
+The current module mode can be seen and changed in the context menu (right click on the module to access the context menu).
 
-* Only input CV that has smooth modulation
-* Use a Slew Limiter before the CV inputs to smooth out abrupt changes
-* Use an envelope with a small amount of attack on either the CV input or the Amplitude, when the CV changes (This might be on a certain clock for example)
+#### Module Design & Audio Quality
 
-I am considering implementing built-in slew for this module to remove the possibility of generating clicks in the output. If you would like to encourage this you can let me know via an [issue](https://github.com/Miff-Real/DanTModules-Manual/issues), via the [VCV Rack Community](https://community.vcvrack.com/t/dantmodules-v1-0-0-release-wavulike/11776), or via my [Instagram](https://www.instagram.com/dant.synth/)
+This module is designed to allow you to create custom waveforms and modulate the parameters of that waveform. Hopefully this makes it a flexible sound source, but with that flexibility there are also pitfalls. There are currently 3 areas of audio quality concern:
+* **Clicks** in the output audio
+  * This module has built-in slew limiters on the Point control and Q control inputs. These are designed to smooth out abrupt changes in the input CV, and therefore avoid audible clicks in the output
+  * This type of slew does not apply to the Active Points input or manual modulation of the Active Point knob. Depending on the settings of the Points and the Q controls, changing the number of Active Points can cause audible clicks. You could address this issue by making use of the Amplitude control; Input an envelope, or duck the amplitude to 0% on the change to remove the click in the output.
+* **DC Offset** of the waveform
+  * DC Offset occurs when the waveform you generate is not balanced around the 0 point, or in single point mode when the output is not 0. When there is DC Offset in the output there will be a frequency "hump" from 0Hz to ~15Hz, and this can in some situations cause unwanted audio artifacts. This module has a built-in high pass filter at 15Hz, to remove the frequency hump. You may notice the effect of this filter as a shifting of the waveform center point when viewing it on an oscilloscope.
+* Digital **Aliasing**
+  * See this excellent [document](https://github.com/squinkylabs/SquinkyVCV/blob/main/docs/aliasing.md) from [Squinky Labs](https://www.facebook.com/SquinkyLabs) on aliasing. Currently this module does not attempt to compensate for aliasing, so at higher frequencies there is audible aliasing.
+
+#### Polyphony
+
+This module is not currently compatible with VCV Rack's Polyphonic cables. If you would like polyphonic support, you can let me know via an [issue](https://github.com/Miff-Real/DanTModules-Manual/issues), via the [VCV Rack Community](https://community.vcvrack.com/t/dantmodules-v1-0-0-release-wavulike/11776), or via my [Instagram](https://www.instagram.com/dant.synth/).
