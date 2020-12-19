@@ -126,14 +126,14 @@ The context menu can be accessed by right-clicking on the module panel.
 
 The options are as follows:
 
-* **Param Behaviour**
+* **Param Behaviour** [Demo Video](https://www.instagram.com/p/CI--C8GBP6E/)
   * Value `Follow`: The Knobs and Sliders for the Points values, Q controls & Active Points will follow the CV input if a cable is connected.
   * Value `Offset`: The knobs and sliders remain freely movable, if a CV input is connected, its value will be offset from the knob or slider position
-* **CV Input Slew**
+* **CV Input Slew** [Demo Video](https://www.instagram.com/p/CI-7aH1BKd7/)
   * This option changes the length of the built-in slew for the CV inputs. Clicking it will cycle through the available values of `None`, `1 millisecond`, `5 milliseconds`, `10 milliseconds`, `25 milliseconds`, `50 milliseconds` & `100 milliseconds`
-* **Filter DC Offset**
+* **Filter DC Offset** [Demo Video](https://www.instagram.com/p/CI_BMAEhOmv/)
   * This option activates & deactivates the high pass filter that compensates for DC Offset in the output
-* **Antialias**
+* **Antialias** [Demo Video](https://www.instagram.com/p/CI_EGeaBQ4c/)
   * This option activates & deactivates the Anti-aliasing option that is designed to reduce aliasing at high frequencies
 
 #### Module Design & Audio Quality
@@ -157,4 +157,4 @@ This module is designed to allow you to create custom waveforms and modulate the
 
 #### Polyphony
 
-This module is not currently compatible with VCV Rack's Polyphonic cables. If you would like polyphonic support, you can let me know via an [issue](https://github.com/Miff-Real/DanTModules-Manual/issues), via the [VCV Rack Community](https://community.vcvrack.com/t/dantmodules-v1-0-0-release-wavulike/11776), or via my [Instagram](https://www.instagram.com/dant.synth/).
+This module is not currently compatible with VCV Rack's Polyphonic cables. If you would like polyphonic support, you can let me know via an [issue](https://github.com/Miff-Real/DanTModules-Manual/issues), via the [VCV Rack Community](https://community.vcvrack.com/t/dantmodules-v1-0-2-update-context-menu-options-for-wavulike-bug-fix-v1-0-3/11885), or via my [Instagram](https://www.instagram.com/dant.synth/).

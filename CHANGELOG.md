@@ -1,5 +1,11 @@
 # DanTModules Changelog
 
+## 1.0.3
+
+* **WAVULIKE**
+  * Bug Fix: https://github.com/Miff-Real/DanTModules-Manual/issues/2
+  * Updates to the [Manual](https://github.com/Miff-Real/DanTModules-Manual)
+
 ## 1.0.2
 
 * **WAVULIKE**
