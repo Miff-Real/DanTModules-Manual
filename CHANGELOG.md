@@ -1,5 +1,11 @@
 # DanTModules Changelog
 
+## 1.0.4
+
+* **WAVULIKE**
+  * **NEW: Adds LEDs for Amp & Clip**
+  * Re-Scale Amplitude CV input from +10 volts to +-5 volts
+
 ## 1.0.3
 
 * **WAVULIKE**
