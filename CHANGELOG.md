@@ -1,5 +1,15 @@
 # DanTModules Changelog
 
+## 1.1.0
+
+* **TMNT**
+  * **NEW MODULE:** Timed Mutating Non-Linear Triggers
+  * A sequencer of sorts, outputs 19 different sets of triggers & 3 `0-10 volt` CV values
+  * Has 64 steps, with CV control of X&Y BPM, X&Y Reset, run Direction, step Activation, Mutation type & direction and Shift direction
+* **Visual Updates**
+  * Minor changes to WAVULIKE panel to match with TMNT
+  * Updated screws to look like Befaco Knurlies, because they are awesome
+
 ## 1.0.4
 
 * **WAVULIKE**
