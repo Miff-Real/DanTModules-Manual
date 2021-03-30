@@ -1,5 +1,16 @@
 # DanTModules Changelog
 
+## 1.2.0
+
+* **5Splice**
+  * **NEW MODULE:** Window mixer for up to 5 channels with it's own slew
+  * Connect up to 5 input signals and a trigger
+  * Each trigger will cause the "window" to shift to the next input
+  * Outputs both the mix signal and a 0-10 volt window signal
+  * Has a built-in slew that interpolates between the previous and next signal passing through the window
+  * Slew can be deactivated or set to a maximum of 44,100 samples (1 second at 44.1k sample rate)
+  * Can mix both audio and CV signals, why not try audio rate triggers too?
+
 ## 1.1.0
 
 * **TMNT**
