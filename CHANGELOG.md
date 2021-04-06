@@ -1,5 +1,12 @@
 # DanTModules Changelog
 
+## 1.2.1
+
+* **5Splice**
+  * **NEW: Modes, change how the mixer window shifts between the signals**
+  * Chose from Forward, ForwardX2, Backward, BackwardX2, PingPong, Random
+  * Input to modulate the mode, CV value is added to the current parameter value
+
 ## 1.2.0
 
 * **5Splice**
