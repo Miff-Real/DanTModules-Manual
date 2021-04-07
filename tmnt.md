@@ -1,8 +1,11 @@
 # TMNT
 
 * [Overview](#overview)
+* [Polyphony](#polyphony)
 
 ## Overview
+
+**34hp**
 
 TMNT is a contrived acronym for "Timed Mutating Non-Linear Triggers", which is meant to describe the focus of this module as type of sequencer.
 
@@ -101,3 +104,7 @@ The components of the module are (left to right, top to bottom):
 * X value output
 * Step value output
 * Y value output
+
+## Polyphony
+
+This module is not currently compatible with VCV Rack's Polyphonic cables. If you would like polyphonic support, you can let me know via an [issue](https://github.com/Miff-Real/DanTModules-Manual/issues), via the [VCV Rack Community](https://community.vcvrack.com/t/dantmodules-v1-0-2-update-context-menu-options-for-wavulike-bug-fix-v1-0-3/11885), or via my [Instagram](https://www.instagram.com/dant.synth/).
