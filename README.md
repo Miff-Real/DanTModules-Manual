@@ -1,4 +1,4 @@
-# DanTModules v1.1.0
+# DanTModules v1.2.1
 
 ![WAVULIKE](img/dantmodules.png)
 
@@ -16,3 +16,4 @@ If you feel generous or want to motivate me to further develop this plugin, you 
 
 * [WAVULIKE](wavulike.md)
 * [TMNT](tmnt.md)
+* [5Splice](5splice.md)
