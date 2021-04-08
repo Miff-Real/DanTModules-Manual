@@ -1,5 +1,10 @@
 # DanTModules Changelog
 
+## 1.2.2
+
+* **5Splice**
+  * **Bug:** Fixed potential run away code that would hang VCV when channel A or E were not connected in Ping-Pong mode
+
 ## 1.2.1
 
 * **5Splice**
