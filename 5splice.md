@@ -48,7 +48,7 @@ If there is not another connected input, or if the mode causes the next channel 
 
 ## Slew
 
-The slew knob can have a value from `0` to `44,100` samples, the default is `441` samples. When the VCVRack sample rate is set at `44.1` kHz this equates to a `1` millisecond slew. `0` will disable the slew.
+The slew knob can have a value from `0` to `44,100` samples, the default is `441` samples. When the VCVRack sample rate is set at `44.1` kHz this equates to a `10` millisecond slew. `0` will disable the slew.
 
 When the window shifts between channels, if the slew is active, the mixed output signal will be an interpolated value between the previously selected channel and the newly selected channel, over the length of the slew.
 
