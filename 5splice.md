@@ -46,6 +46,8 @@ When the trigger input receives a trigger, the window will move on to the next c
 
 If there is not another connected input, or if the mode causes the next channel selection to be the same, the window will remain on the current channel.
 
+[Omri Cohen](https://www.youtube.com/c/OmriCohen-Music) has a nice video that covers the basics of this module, [check out the video from the 4:18 mark](https://youtu.be/qbDxvukKz1M?t=258).
+
 ## Slew
 
 The slew knob can have a value from `0` to `44,100` samples, the default is `441` samples. When the VCVRack sample rate is set at `44.1` kHz this equates to a `10` millisecond slew. `0` will disable the slew.

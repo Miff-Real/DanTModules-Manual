@@ -1,4 +1,4 @@
-# DanTModules v1.2.1
+# DanTModules v1.2.2
 
 ![WAVULIKE](img/dantmodules.png)
 

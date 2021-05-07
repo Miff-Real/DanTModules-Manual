@@ -1,6 +1,14 @@
 # TMNT
 
 * [Overview](#overview)
+* [Basic Operation](#basic-operation)
+* [Run Modes](#run-modes)
+* [BPMs & Resets](#bpms--resets)
+* [Manual Steps](#manual-steps)
+* [Enabling Steps](#enabling-steps)
+* [Mutating Steps](#mutating-steps)
+* [Shifting Steps](#shifting-steps)
+* [Step Values](#step-values)
 * [Polyphony](#polyphony)
 
 ## Overview
@@ -104,6 +112,93 @@ The components of the module are (left to right, top to bottom):
 * X value output
 * Step value output
 * Y value output
+
+## Basic Operation
+
+There are three types of outputs on this module; BMP triggers, Step triggers, and Step values. Typically, the BPM triggers would be used to clock other modules, the Step values might be used as either pitch or modulation sources, but the main focus would be using the Step triggers as a generative rhythm. But of course, there are no rules, you can use the outputs in any way you please.
+
+The grid that consists of 64 steps is broken down into 8 rows and 8 columns, each with 8 steps. The currently active step will be lit green, enabled steps will be lit yellow, disabled steps will be dark. When in a run mode, the X-BPM controls the speed at which the active step advances horizontally, and the Y-BPM controls the speed at which the active step advances vertically.
+
+When the active step advances horizontally, if the newly activated step is enabled, its corresponding Column (Y) will fire a trigger.
+
+When the active step advances vertically, if the newly activated step is enabled, its corresponding Row (X) will fire a trigger.
+
+When any Row (X) or Column (Y) step trigger fires, the Active Step output will also fire.
+
+## Run Modes
+
+There are 3 run modes that can be selected using the Run control switch:
+* **Stopped** (Centered, Blue indicator, `0`)
+* **Forwards** (Down, Green indicator, `1`)
+* **Backwards** (Up, Red indicator, `-1`)
+
+A non-zero signal `S` given to the Run input will override the Run mode currently selected by the control switch as follows:
+* `S < -1 volt` Backwards
+* `-1 volt >= S <= 1 volt` Stopped
+* `S > 1 volt` Forwards
+
+An unconnected Run input or `0 volt` signal will have no effect on the current Run mode.
+
+## BPMs & Resets [Demo Video](https://www.instagram.com/p/COdr_WIBtiH/)
+
+The X & Y BPM value is determined by the control knob value, plus the input signal multiplied by `100`, but note that both values are truncated to integers first and the input is normalled to `0` volts.
+* **For example**: X BPM knob value set to `355.5`
+* X BPM input receives a signal of `-2.3` volts.
+* The resultant BPM would be `355 + -230 = 125`BPM
+
+The knob value itself is limited to between `0` and `1000` BPM, however the calculated result is not.
+
+An interesting consequence of this calculation is that using a `+10` volt signal you could create `2000`BPM, or using a low knob value with a negative signal you could create a negative BPM. In fact, using a module like [NYSTHI Fixed Voltage Source](https://library.vcvrack.com/NYSTHI/FixedVoltageSource) you can create crazy value BPMs.
+
+A temporarily negative BPM can be used to create a pause in the generated rhythm. While the BPM is negative, the inter-trigger time accumulates, when the BPM returns to positive, that accumulated inter-trigger time must be played out before the next trigger will be fired.
+
+In addition to the BPM inputs, both X & Y have a reset input and there is a reset button with an indicator light. Pressing the button will reset both X & Y, so the active step will become 1, and the indicator light will flash red. The reset inputs will fire for any positive value `> 0`, the X reset will set the active step to be in column 1, the Y reset will set the active step to be in row 1. The indicator light will flash yellow for an X reset, purple for a Y reset, and white for X & Y simultaneous.
+
+Note that when a reset is fired, if the target step is enabled this will fire a new trigger, even if the step number does not change.
+
+## Manual Steps [Demo Video](https://www.instagram.com/p/COh97SBh0LV/)
+
+There are six buttons that can be used to manually advance the active step, X forwards (right) & backwards (left), Y forwards (down) & backwards (up), and X & Y combined forwards (right & down) & backwards (left & up).
+
+Note that manual steps will also fire the BPM trigger outputs & the steps will respect the current Mutate & Shift setting.
+
+## Enabling Steps [Demo Video](https://www.instagram.com/p/COghFfhh_Yt/)
+
+Each of the 64 steps is a button, clicking the button will toggle the step between enabled (yellow) and disabled (dark).
+
+You can automatically toggle a step by sending CV signals to the 16 step activation inputs. Each step corresponds to two inputs, one X and one Y. If both inputs for a step receive a `> 0` signal simultaneously, the step will be toggled.
+
+## Mutating Steps [Demo Video](https://www.instagram.com/p/COkuOtDBfi5/)
+
+At the top-right of the module are the Mutate controls. The Mutate Type control switch has 3 modes:
+* **Toggle** (Centered, Blue indicator, `2`) Enabled mutation directions will toggle the adjacent steps.
+* **Remove** (Down, Red indicator, `1`) Enabled mutation directions will disable the adjacent steps.
+* **Insert** (Up, Green indicator, `3`) Enabled mutation directions will enable the adjacent steps.
+
+A non-zero signal `S` given to the Mutate Type input will override the Mutate mode currently selected by the control switch as follows:
+* `S < -2.5 volts` Remove
+* `-2.5 volts >= S <= 2.5 volts` Toggle
+* `S > 2.5 volts` Insert
+
+An unconnected Mutate Type input or `0 volt` signal will have no effect on the current Mutate mode.
+
+Each of the 8 cardinal directions (North, North-East, East, South-East, South, South-West, West, North-West) has a button and an input. Clicking the button will toggle that mutation direction between enabled (red) and disabled (dark). Any signal `> 0` sent to an input will enable that mutation direction. So, for example, you could use an LFO to toggle a mutation direction on and off.
+
+Any enabled mutation directions will take effect whenever the active step advances (either due to X or Y BPM or a manual step). The 8 adjacent steps to the newly active step will have their state altered by the enabled mutation directions. Adjacency wraps at the edge of the grid, so for example, when step 1 becomes active, an enabled North mutation would act upon step 57.
+
+## Shifting Steps
+
+Below the mutation section are the Shift controls, these work in a very similar fashion. The 8 cardinal directions have buttons and inputs that work exactly the same but with enabled shift directions being yellow.
+
+Any enabled shift direction will take effect as the active step advances (either due to X or Y BPM or a manual step). For any enabled shift direction, when the next active step is evaluated, it will be moved one step in that direction. All directions will be evaluated before being applied, therefore enabling, for example, both North and South shift directions will result in no shift.
+
+## Step Values
+
+These 3 outputs have their values set by the currently active step.
+
+The X & Y step value outputs will range from `1.25 volts` to `10 volts` depending on the active steps row and column number. So for example when the active step is 23 (column = 7, row = 3), the X step value output will be `8.75 volts` and the Y step value output will be `3.75 volts`.
+
+The step value output will range from `0.15625 volts` to `10  volts` depending on the active step number. So for example when the active step is 63, the step value output will be `9.844 volts`.
 
 ## Polyphony
 
