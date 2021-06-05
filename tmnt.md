@@ -339,8 +339,8 @@ Image provided by [@rsmus7](https://community.vcvrack.com/u/rsmus7)
 
   S. 🔵 **Active step output** - outputs a trigger when the active step lands on any enabled step
 
-  T. 🔵 **Row value output** - outputs a CV signal based on which row the active step currently occupies
+  T. 🔵 **Row value output** - outputs a CV signal based on which column the active step currently occupies
 
   U. 🔵 **Step value output** - outputs a CV signal based on the absolute step number of the active step (steps are numbered from `1` to `64` where step `1` is top left and step `64` is bottom right)
 
-  V. 🔵 **Column value output** - outputs a CV signal based on which column the active step currently occupies
+  V. 🔵 **Column value output** - outputs a CV signal based on which row the active step currently occupies
