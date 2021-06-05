@@ -10,6 +10,8 @@
 * [Shifting Steps](#shifting-steps)
 * [Step Values](#step-values)
 * [Polyphony](#polyphony)
+* [Appendix](#appendix)
+  * [Annotated image](#annotated-image)
 
 ## Overview
 
@@ -203,3 +205,142 @@ The step value output will range from `0.15625 volts` to `10  volts` depending o
 ## Polyphony
 
 This module is not currently compatible with VCV Rack's Polyphonic cables. If you would like polyphonic support, you can let me know via an [issue](https://github.com/Miff-Real/DanTModules-Manual/issues), via the [VCV Rack Community](https://community.vcvrack.com/t/dantmodules-v1-0-2-update-context-menu-options-for-wavulike-bug-fix-v1-0-3/11885), or via my [Instagram](https://www.instagram.com/dant.synth/).
+
+## Appendix
+### Annotated image
+
+Image provided by [@rsmus7](https://community.vcvrack.com/u/rsmus7)
+
+![TMNT Annotated](img/tmnt-annotated-by-rsmus7.png)
+
+**Inputs & Controls**
+
+1. 🔴 **Y BPM input** - provide a CV signal to modulate the speed at which the active step moves vertically
+
+2. 🟡 **Y BPM knob** - sets the speed at which the active step moves vertically, from `0` (static) to `1000` BPM (fast)
+
+3. 🔴 **Y Reset input** - provide a CV signal that will be processed as a trigger (a trigger will fire when the signal moves from `0` to `1`) The trigger will reset the active step to Row 1 (the top row) and the reset LED will flash purple
+
+4. 🔴 **X BPM input** - provide a CV signal to modulate the speed at which the active step moves horizontally
+
+5. 🔴 **X Reset input** - provide a CV signal that will be processed as a trigger (a trigger will fire when the signal moves from `0` to `1`) The trigger will reset the active step to column 1 (the left column) and the reset LED will flash yellow
+
+6. 🔴 **Column 1 step activation input** - provide a CV signal above `0` to activate this column, this signal combined with any currently active row will trigger the corresponding step to toggle its enabled state (enabled becomes disabled, and vice versa)
+
+7. 🔴 **Column 2 step activation input**
+
+8. 🔴 **Column 3 step activation input**
+
+9. 🔴 **Column 4 step activation input**
+
+10. 🔴 **Column 5 step activation input**
+
+11. 🔴 **Column 6 step activation input**
+
+12. 🔴 **Column 7 step activation input**
+
+13. 🔴 **Column 8 step activation input**
+
+14. 🔴 **Run direction input** - provide a CV signal to modulate the run direction, a `0` signal has no effect, lower than `-1` sets backwards, higher than `1` sets forwards, between `-1` and `1` (excluding `0`) sets stopped
+
+15. 🟡 **Run direction switch** - sets the direction the active step moves in, stopped means the active step does not move, backwards means the active steps moves upwards and leftwards, forwards means the active step moves downwards and rightwards
+
+16. 🔴 **Row 1 step activation input** - provide a CV signal above `0` to activate this row, this signal combined with any currently active column will trigger the corresponding step to toggle its enabled state (enabled becomes disabled, and vice versa)
+
+17. 🔴 **Row 2 step activation input**
+
+18. 🔴 **Row 3 step activation input**
+
+19. 🔴 **Row 4 step activation input**
+
+20. 🔴 **Row 5 step activation input**
+
+21. 🔴 **Row 6 step activation input**
+
+22. 🔴 **Row 7 step activation input**
+
+23. 🔴 **Row 8 step activation input**
+
+24. 🟡 **Mutation Type switch** - sets the way that steps are mutated when the mutation direction is enabled, insert (up) sets the step to enabled, toggle (middle) flips the step state, remove (down) disables the step
+
+25. 🔴 **Mutation Type input** - provide a CV signal to modulate the mutation type, a `0` signal has no effect, lower than `-2.5` sets remove, higher than `2.5` sets insert, between `-2.5` and `2.5` (excluding `0`) sets toggle
+
+26. 🔴 **NW Mutation Direction input** - provide a CV signal to modulate this mutation directions state, any signal higher than `0` will enable this direction
+
+27. 🔴 **N Mutation Direction input**
+
+28. 🔴 **NE Mutation Direction input**
+
+29. 🔴 **W Mutation Direction input**
+
+30. 🔴 **E Mutation Direction input**
+
+31. 🔴 **SW Mutation Direction input**
+
+32. 🔴 **S Mutation Direction input**
+
+33. 🔴 **SE Mutation Direction input**
+
+34. 🔴 **NW Shift Direction input** - provide a CV signal to modulate this shift directions state, any signal higher than `0` will enable this direction
+
+35. 🔴 **N Shift Direction input**
+
+36. 🔴 **NE Shift Direction input**
+
+37. 🔴 **W Shift Direction input**
+
+38. 🔴 **E Shift Direction input**
+
+39. 🔴 **SW Shift Direction input**
+
+40. 🔴 **S Shift Direction input**
+
+41. 🔴 **SE Shift Direction input**
+
+42. 🟡 **X BPM knob** - sets the speed at which the active step moves horizontally, from `0` (static) to `1000` BPM (fast)
+
+**Outputs**
+
+  A. 🔵 **Y BPM output** - outputs a trigger at the current Y BPM value
+
+  B. 🔵 **Column 1 output** - outputs a trigger when the active steps moves horizontally and lands on an enabled step in column `1`
+
+  C. 🔵 **Column 2 output** - outputs a trigger when the active steps moves horizontally and lands on an enabled step in column `2`
+
+  D. 🔵 **Column 3 output** - outputs a trigger when the active steps moves horizontally and lands on an enabled step in column `3`
+
+  E. 🔵 **Column 4 output** - outputs a trigger when the active steps moves horizontally and lands on an enabled step in column `4`
+
+  F. 🔵 **Column 5 output** - outputs a trigger when the active steps moves horizontally and lands on an enabled step in column `5`
+
+  G. 🔵 **Column 6 output** - outputs a trigger when the active steps moves horizontally and lands on an enabled step in column `6`
+
+  H. 🔵 **Column 7 output** - outputs a trigger when the active steps moves horizontally and lands on an enabled step in column `7`
+
+  I. 🔵 **Column 8 output** - outputs a trigger when the active steps moves horizontally and lands on an enabled step in column `8`
+
+  J. 🔵 **X BPM output** - outputs a trigger at the current X BPM value
+
+  K. 🔵 **Row 1 output** - outputs a trigger when the active steps moves vertically and lands on an enabled step in row `1`
+
+  L. 🔵 **Row 2 output** - outputs a trigger when the active steps moves vertically and lands on an enabled step in row `2`
+
+  M. 🔵 **Row 3 output** - outputs a trigger when the active steps moves vertically and lands on an enabled step in row `3`
+
+  N. 🔵 **Row 4 output** - outputs a trigger when the active steps moves vertically and lands on an enabled step in row `4`
+
+  O. 🔵 **Row 5 output** - outputs a trigger when the active steps moves vertically and lands on an enabled step in row `5`
+
+  P. 🔵 **Row 6 output** - outputs a trigger when the active steps moves vertically and lands on an enabled step in row `6`
+
+  Q. 🔵 **Row 7 output** - outputs a trigger when the active steps moves vertically and lands on an enabled step in row `7`
+
+  R. 🔵 **Row 8 output** - outputs a trigger when the active steps moves vertically and lands on an enabled step in row `8`
+
+  S. 🔵 **Active step output** - outputs a trigger when the active step lands on any enabled step
+
+  T. 🔵 **Row value output** - outputs a CV signal based on which row the active step currently occupies
+
+  U. 🔵 **Step value output** - outputs a CV signal based on the absolute step number of the active step (steps are numbered from `1` to `64` where step `1` is top left and step `64` is bottom right)
+
+  V. 🔵 **Column value output** - outputs a CV signal based on which column the active step currently occupies
