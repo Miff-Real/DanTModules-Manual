@@ -1,5 +1,14 @@
 # DanTModules Changelog
 
+## 1.2.3 **The Legibility Update**
+
+* **Visual Updates**
+  * New port graphic, rendered as a hexnut
+  * Updated knob graphics, added definition
+  * All panels updated to add text shadows
+* **WAVULIKE**
+  * Exact frequency added to right-click context menu. Note: this only updates when the menu is opened, it does not continuously update if the frequency is being modulated
+
 ## 1.2.2
 
 * **5Splice**
