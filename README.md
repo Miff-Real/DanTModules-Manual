@@ -16,4 +16,5 @@ If you feel generous or want to motivate me to further develop this plugin, you 
 
 * [WAVULIKE](wavulike.md)
 * [TMNT](tmnt.md)
+  * [Alt TMNT documentation PDF](tmnt.pdf) generously created by the most excellent [Worker 13](https://community.vcvrack.com/u/worker_13/summary)
 * [5Splice](5splice.md)
