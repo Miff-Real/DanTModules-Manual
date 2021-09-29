@@ -8,6 +8,9 @@ As that work progresses I will post Windows builds here for any prospective user
 
 ### Builds
 
-* [DanTModules-20210927](builds/DanTModules-20210927.zip)
+* [DanTModules-20210927](builds/DanTModules-20210927.zip) (built for `2.git.b04e4117`)
   * **Known Issues**
     * In `Param Behaviour: Follow` mode, the Active Points with no CV input connected, does not update on change without a subsequent user interaction.
+
+* [DanTModules-20210929](builds/DanTModules-20210929.zip) (built for `2.git.b04e4117`)
+  * **Wavulike** Added factory presets
