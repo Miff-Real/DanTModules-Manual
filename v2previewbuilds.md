@@ -25,7 +25,7 @@ As that work progresses I will post Windows builds here for any prospective user
     * Updated Knob & Port Graphics
     * All switches, buttons & ports labeled
 
-* [DanTModules-20210930](builds/DanTModules-20211001.zip) (built for `2.git.b04e4117`)
+* [DanTModules-20211001](builds/DanTModules-20211001.zip) (built for `2.git.b04e4117`)
   * **All Modules**
     * Minor update to back panel graphics
   * **TMNT**
