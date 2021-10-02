@@ -1,4 +1,4 @@
-# DanTModules v2.2.2 Preview Builds
+# DanTModules v2.3.4 Preview Builds
 
 ![WAVULIKE](img/dantmodules-v2.png)
 
@@ -10,16 +10,16 @@ As that work progresses I will post Windows builds here for any prospective user
 
 ### Builds
 
-* [DanTModules-20210927](builds/DanTModules-20210927.zip) (built for `2.git.b04e4117`)
+* ~~[DanTModules-20210927](builds/DanTModules-20210927.zip) (built for `2.git.b04e4117`)~~
   * **Known Issues**
-    * In `Param Behaviour: Follow` mode, the Active Points with no CV input connected, does not update on change without a subsequent user interaction.
+    * ~~In `Param Behaviour: Follow` mode, the Active Points with no CV input connected, does not update on change without a subsequent user interaction.~~ **Fixed in latest build**
 
-* [DanTModules-20210929](builds/DanTModules-20210929.zip) (built for `2.git.b04e4117`)
+* ~~[DanTModules-20210929](builds/DanTModules-20210929.zip) (built for `2.git.b04e4117`)~~
   * **Wavulike** Added factory presets
 
-* [DanTModules-20210930](builds/DanTModules-20210930.zip) (built for `2.git.b04e4117`)
+* ~~[DanTModules-20210930](builds/DanTModules-20210930.zip) (built for `2.git.b04e4117`)~~
   * **Known Issues**
-    * Labels for the TMNT Direction switch are incorrect
+    * ~~Labels for the TMNT Direction switch are incorrect~~ **Fixed in latest build**
     * Presets for TMNT do not work correctly
   * **All Modules**
     * Updated Knob & Port Graphics
@@ -32,3 +32,6 @@ As that work progresses I will post Windows builds here for any prospective user
     * New switch graphics
     * Added CV inputs to trigger manual X & Y steps forwards & backwards
     * Added A button & CV input to just randomise the steps
+
+* [DanTModules-V2Preview-Windows](builds/DanTModules-V2Preview-Windows.zip) (built for `2.git.042a9ce0`)
+  * Update to latest VCV Rack V2 beta build
