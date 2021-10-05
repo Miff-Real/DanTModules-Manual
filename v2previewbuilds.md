@@ -9,8 +9,7 @@ In the run up to the [VCV Rack 2 release](https://community.vcvrack.com/t/rack-d
 As that work progresses I will post Windows builds here for any prospective users to test (at their own risk blah blah blah...)
 
 ### Builds
-
-* [DanTModules-2.3.4-win.vcvplugin](builds/DanTModules-2.3.4-win.vcvplugin) (built for `2.git.042a9ce0`)
+* [DanTModules-2.3.4-win.vcvplugin](https://github.com/Miff-Real/DanTModules-Manual/releases/download/v2.preview.win/DanTModules-2.3.4-win.vcvplugin) (built for `2.git.042a9ce0`)
   * Plugin format is now being used, simply save to your `Rack2/plugins` directory
   * **All known V2 bugs are now resolved!** __Until more bugs are found I will move on to new feature & module development__
   * **Wavulike**
