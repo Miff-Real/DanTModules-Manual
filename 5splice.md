@@ -13,7 +13,7 @@
 
 5Splice is a "window mixer" with up to 5 inputs, 6 different modes, an internal slew and a window signal output.
 
-![TMNT](img/5splice.png)
+![5Splice](img/5splice.png)
 
 The components of the module are (top to bottom, left to right):
 

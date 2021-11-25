@@ -1,5 +1,32 @@
 # DanTModules Changelog
 
+## 2.3.0 **VCV Rack 2 Update**
+* **NEW MODULES!**
+  * **pKorre** CV source based on correlation between two signals
+  * **Kanal** Waveshaper
+  * **Bily G8s** Gates Generator
+* **Visual Updates** New panels, knobs & port designs for V2
+* **Right-click menus updated**
+  * All modules now have a CV Param Mode menu option
+    * `Offset` The CV value will be added to the param value
+    * `Follow` The param will change automatically to the CV value
+    * `Attenuate` The CV value will be attenuated by the param control, if the param is bi-polar then the value will be attenuverted
+  * All modules except 5Splice now have a Clamp CV Values menu option
+    * When active, this will ensure that CV values are restricted to within the params normal operating interval (ie. the minimum and maximum values of the param control)
+    * Deactivating this option might reduce the modules CPU usage, but means that extraordinary CV values (typically < -5 volts & > 10 volts) can cause param values to exceed their normal operating interval, which can both be intended (for example making a BPM param on the TMNT module exceed 1000) and cause unintended effects, or worst case potentially cause other modules to function incorrectly
+* **WAVULIKE**
+  * Added factory presets
+  * Frequency read-out in context menu fixed to 3 decimal places
+  * **New Feature**: Auto-Duck. When active (on by default) will duck the internal VCA for a few milliseconds when the number of active points changes. This ensures there is no audible click when the waveform changes shape.
+* **TMNT**
+  * New switch graphics
+  * Added CV inputs to trigger manual X & Y steps forwards & backwards
+  * Added a button & CV input to just randomise the steps
+  * Added factory presets
+* **5Splice**
+  * Added example slew presets
+  * Increased maximum window slew time possible
+
 ## 1.2.3 **The Legibility Update**
 
 * **Visual Updates**

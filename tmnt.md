@@ -1,5 +1,7 @@
 # TMNT
 
+* [Alt TMNT documentation PDF](tmnt.pdf) generously created by the most excellent [Worker 13](https://community.vcvrack.com/u/worker_13/summary)
+
 * [Overview](#overview)
 * [Basic Operation](#basic-operation)
 * [Run Modes](#run-modes)
