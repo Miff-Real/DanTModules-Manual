@@ -1,4 +1,4 @@
-# DanTModules v2.3.0
+# DanTModules v2.3.2
 
 ![DanTModules](img/dantmodules.png)
 
@@ -22,3 +22,5 @@ If you feel generous or want to motivate me to further develop this plugin, you 
 * [pKorre](pkorre.md)
 * [Kanal](kanal.md)
 * [Billy G8s](billyg8s.md)
+* [Bright Idea](brightidea.md)
+* [Nonaquant](nonaquant.md)

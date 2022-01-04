@@ -1,5 +1,12 @@
 # DanTModules Changelog
 
+## 2.3.2 **The Bright-Quant Update**
+* **NEW MODULES!**
+  * **Bright-Idea** CV control VCV Rack settings
+  * **Nonaquant** Polyphonic 9 octave quantizer
+* **Kanal**
+  * The previous antialiasing implementation was total bologna, this has been updated, but is currently still fairly ineffective. The option is off by default for this reason and due it it being CPU intensive
+
 ## 2.3.0 **VCV Rack 2 Update**
 * **NEW MODULES!**
   * **pKorre** CV source based on correlation between two signals
