@@ -1,5 +1,21 @@
 # DanTModules Changelog
 
+## 2.3.3 **The Chroma Update**
+* **NEW MODULES!**
+  * **Chromagica** enables CV control over the **A**mount of **R**ed, **G**reen and **B**lue chroma used by the new Magical CV theme
+  * **Chromakey** a resizable & recolourable blank panel that can be used for green-screen effects in your streaming or video editor
+* **Themes**
+  * **Superficially Deep** A new darker theme
+  * **Magical CV** A theme with customizable panel colour
+* **Plugin Settings**
+  * The plugin will now create a `Rack2\DanTModules.json` to save plugin-wide settings
+* **Bright-Idea**
+  * New context menu options enable you to set default module behaviors and parameter values
+* **Nonaquant**
+  * Now has memory banks! 16 for the module, saved to the patch, and 16 for the plugin saved to the settings file (and shared between all instances of Nonaquant)
+  * Polyphonic inputs allow you to load a memory bank with a trigger to the corresponding channel
+  * Context menu option to clear all selected notes
+
 ## 2.3.2 **The Bright-Quant Update**
 * **NEW MODULES!**
   * **Bright-Idea** CV control VCV Rack settings
