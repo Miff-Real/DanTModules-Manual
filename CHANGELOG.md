@@ -1,5 +1,9 @@
 # DanTModules Changelog
 
+## 2.3.4 **BrightIdea bug fix**
+* **Bright-Idea**
+  * Saving the default parameters via the context menu should now work correctly
+
 ## 2.3.3 **The Chroma Update**
 * **NEW MODULES!**
   * **Chromagica** enables CV control over the **A**mount of **R**ed, **G**reen and **B**lue chroma used by the new Magical CV theme
