@@ -1,4 +1,4 @@
-# DanTModules v2.3.4
+# DanTModules v2.3.6
 
 * [Overview](#overview)
 * [Common Controls & Concepts](#common-controls--concepts)

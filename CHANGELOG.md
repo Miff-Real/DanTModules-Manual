@@ -1,5 +1,13 @@
 # DanTModules Changelog
 
+## 2.3.6
+* **Schmitt Triggers**
+  * All triggers are now properly implemented as Schmitt Triggers.
+  * As per the VCV SDK Docs:
+  > Turns HIGH when value reaches a threshold (default 0.f), turns LOW when value reaches a threshold (default 1.f).
+  * This should mean that all trigger CV inputs should be tolerant of "analogue" style triggers (a modeled pulse wave for example).
+  * This might change behavior for previously saved patches in how manual trigger buttons work when their corresponding CV input is connected, if the CV does not fall back below the threshold, pressing the button will have no effect because the schmitt trigger will consider the previous trigger as still active.
+
 ## 2.3.4 **BrightIdea bug fix**
 * **Bright-Idea**
   * Saving the default parameters via the context menu should now work correctly
