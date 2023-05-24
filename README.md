@@ -28,7 +28,7 @@ If you feel generous or want to motivate me to further develop this plugin, you 
 
 As of DanTModules `v2.4.0` there will be a new design philosophy implemented, based upon the experience and lessons learned from the original 10 modules of the plugin.
 
-This new philosophy and modules will be called `NuMetal` and they are documented separately [NuMetal-Modules](numetal-modules.md)
+This new philosophy and modules will be called `NuMetal` and they are documented separately [NuMetal-Modules](nu-metal.md)
 
 ## Common Controls & Concepts
 
