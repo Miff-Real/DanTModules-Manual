@@ -13,19 +13,19 @@ Nu Metal modules have their own plugin settings, which are saved to the file `Da
 
 * `Port Type Colours` will toggle the port type colours
   * inputs are slightly brighter than outputs
-  * multi purpose ports match the panel colour
-  * red = audio
-  * yellow = volt per octave
-  * magenta = reset
-  * aqua = clock
-  * blue = trigger
-  * dark blue = gate
-  * green = modulation
+  * multi purpose ports match the panel colour ![General ports](img/nm-p-any.png)
+  * red = audio ![Audio ports](img/nm-p-aud.png)
+  * yellow = volt per octave ![Volt per Octave ports](img/nm-p-vpo.png)
+  * magenta = reset ![Reset ports](img/nm-p-rst.png)
+  * aqua = clock ![Clock ports](img/nm-p-clk.png)
+  * blue = trigger ![Trigger ports](img/nm-p-trg.png)
+  * dark blue = gate ![Gate ports](img/nm-p-gat.png)
+  * green = modulation ![Modulation ports](img/nm-p-mod.png)
   * rainbow = polyphonic
 * `Coloured Knobs` will toggle knob type colours
-  * DanT blue = generic knobs
-  * green = uni or bi polar knobs
-  * grey = attenuvertor knobs
+  * DanT blue = general knobs ![General knobs](img/nm-k-any.png)
+  * green = uni or bi polar knobs ![Uni/Bi-polar knobs](img/nm-k-pol.png)
+  * grey = attenuvertor knobs ![Attenuvertor knobs](img/nm-k-att.png)
 * `Knob Displays` will toggle the knob value and CV display
   * unipolar knobs have a green value arc and a yellow CV arc (if CV control is offered) ![Unipolar knob display with CV](img/dant-nm-uni-kd.gif)
   * bipolar knobs have a positive green and negative red arc, with a yellow CV arc (if CV control is offered)
