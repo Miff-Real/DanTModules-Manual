@@ -27,7 +27,7 @@ Nu Metal modules have their own plugin settings, which are saved to the file `Da
   * green = uni or bi polar knobs
   * grey = attenuvertor knobs
 * `Knob Displays` will toggle the knob value and CV display
-  * unipolar knobs have a green value arc and a yellow CV arc (if CV control is offered)
+  * unipolar knobs have a green value arc and a yellow CV arc (if CV control is offered) ![Unipolar knob display with CV](img/dant-nm-uni-kd.gif)
   * bipolar knobs have a positive green and negative red arc, with a yellow CV arc (if CV control is offered)
   * attenuvertor knobs have a dark arc with notches for values of `-2`, `-1`, `0`, `1`, `2` (where offered)
 * `Displays Lit` will toggle the knob display being full brightness
