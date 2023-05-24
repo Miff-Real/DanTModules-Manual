@@ -1,6 +1,7 @@
-# DanTModules v2.3.6
+# DanTModules v2.4.0
 
 * [Overview](#overview)
+* [Nu Metal](#nu-metal)
 * [Common Controls & Concepts](#common-controls--concepts)
   * [Global Plugin Settings](#global-plugin-settings)
   * [Themes](#themes)
@@ -22,6 +23,12 @@ I develop this plugin in my spare time, unfortunately this means that this manua
 I would love to see anything you create with this plugin, tag your creations with `#dantmodules` & the name of the modules used. On Instagram you can also directly tag me [@dant.synth](https://www.instagram.com/dant.synth/)
 
 If you feel generous or want to motivate me to further develop this plugin, you may [donate here](https://monzo.me/danieltilley2).
+
+## Nu Metal
+
+As of DanTModules `v2.4.0` there will be a new design philosophy implemented, based upon the experience and lessons learned from the original 10 modules of the plugin.
+
+This new philosophy and modules will be called `NuMetal` and they are documented separately [NuMetal-Modules](numetal-modules.md)
 
 ## Common Controls & Concepts
 
