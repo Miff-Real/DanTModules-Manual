@@ -1,4 +1,4 @@
-# DanTModules v2.4.0 - Nu Metal modules
+# DanTModules v2.4.1 - Nu Metal modules
 
 * [Common Controls & Concepts](#common-controls--concepts)
 * [PolySplice](#polysplice)
@@ -74,7 +74,8 @@ From top-left to bottom-right:
   * **Backwards by 2**
   * **Ping-Pong**
   * **Random**
-* When the selected channel is changed, the slew will be applied between the previous and next channel values.
+* When in Ping-Pong mode, the mode title will include an arrow to indicate the current direction, and there will be a small button to manually change the direction. ![Ping-pong direction manual button](img/polysplice-pingpongbutton.png)
+* When the selected channel is changed, the slew will be applied between the previous and next channel values. There is a light which will be lit when the slew is active. ![Slew active light](img/polysplice-slewlight.png)
 * On any reset trigger, channel `1` will be selected and any current slew will be interrupted.
 * The window output will be `0.5 volts` per channel, e.g. if channel `3` is selected, the window output will be `1.5 volts`, if channel `16` is selected, the window output will be `8 volts`.
 * The output will be the selected channels value affected by the output attenuvertor.
