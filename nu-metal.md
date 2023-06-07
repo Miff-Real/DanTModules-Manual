@@ -35,7 +35,7 @@ Nu Metal modules have their own plugin settings, which are saved to the file `Da
 * `Panel Colour` allows you to set a custom colour for the panels
 * `Reset Appearance` resets all the above settings to their default values
 
-## PolySplice
+## [PolySplice](https://library.vcvrack.com/DanTModules/PolySplice)
 
 **7hp**
 
