@@ -12,11 +12,11 @@ weight: 11
 
 **`7hp`**
 
-PolySplice is a polyphonic version of the original [5Splice](/manual/5splice/) module, a
-"window mixer" with up to 16 inputs, 6 different modes, an internal slew, a window signal output and
-polyphonic output modes.
+PolySplice is a polyphonic version of the original [5Splice](/DanTModules-Manual/manual/5splice/)
+module, a "window mixer" with up to 16 inputs, 6 different modes, an internal slew, a window signal
+output and polyphonic output modes.
 
-![NuMetal-PolySplice](/images/polysplice.png)
+![NuMetal-PolySplice](/DanTModules-Manual/images/polysplice.png)
 
 ### Controls
 
@@ -52,10 +52,10 @@ From top-left to bottom-right:
   * **Random**
 * When in Ping-Pong mode, the mode title will include an arrow to indicate the current direction,
   and there will be a small button to manually change the direction.
-  ![Ping-pong direction manual button](/images/polysplice-pingpongbutton.png)
+  ![Ping-pong direction manual button](/DanTModules-Manual/images/polysplice-pingpongbutton.png)
 * When the selected channel is changed, the slew will be applied between the previous and next
   channel values. There is a light which will be lit when the slew is active.
-  ![Slew active light](/images/polysplice-slewlight.png)
+  ![Slew active light](/DanTModules-Manual/images/polysplice-slewlight.png)
 * On any reset trigger, channel `1` will be selected and any current slew will be interrupted.
 * The window output will be `0.5 volts` per channel, e.g. if channel `3` is selected, the window
   output will be `1.5 volts`, if channel `16` is selected, the window output will be `8 volts`.

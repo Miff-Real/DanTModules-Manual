@@ -47,10 +47,10 @@ summaryLength = 10
     weight = 6
 
 [params]
-  homepage_button_link = '/manual/'
+  homepage_button_link = '/DanTModules-Manual/manual/'
   homepage_button_text = 'RTFM'
   homepage_intro = 'DanTModules is a free plugin for VCV Rack 2 continaing modules created by DanT.'
-  homepage_image = '/images/dantmodules.png'
+  homepage_image = '/DanTModules-Manual/images/dantmodules.png'
 
   ## You can enable to add anchor links to header elements
   # enable_anchor_link = true
@@ -61,8 +61,8 @@ summaryLength = 10
     meta_og_type = "website"
 
   [params.logo]
-      mobile = "/images/DANT-Logo.svg"
-      standard  = "/images/DANT-Logo.svg"
+      mobile = "/DanTModules-Manual/images/DANT-Logo.svg"
+      standard  = "/DanTModules-Manual/images/DANT-Logo.svg"
 
   [params.footer]
     copyright_text = ''

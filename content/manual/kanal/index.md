@@ -13,7 +13,7 @@ weight: 5
 
 Kanal is a waveshaper that works by sculpting a *canal* out of the middle of a waveform.
 
-![Kanal](/images/kanal.png)
+![Kanal](/DanTModules-Manual/images/kanal.png)
 
 ### Basic Operation
 

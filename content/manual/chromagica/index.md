@@ -14,7 +14,7 @@ weight: 9
 Chromagica enables CV control over the **A**mount of **R**ed, **G**reen and **B**lue chroma used by
 the Magical CV theme
 
-![Chromagica](/images/chromagica.png)
+![Chromagica](/DanTModules-Manual/images/chromagica.png)
 
 ### Basic Operation
 

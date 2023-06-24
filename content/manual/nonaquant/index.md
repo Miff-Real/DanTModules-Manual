@@ -15,7 +15,7 @@ weight: 8
 
 Nonaquant is a 16 channel polyphonic 9 octave quantizer
 
-![Nonaquant](/images/nonaquant.png)
+![Nonaquant](/DanTModules-Manual/images/nonaquant.png)
 
 ### Basic Operation
 
@@ -72,4 +72,4 @@ You can enable the note readout via the right-click context menu
 When enabled there will be a display below the keys that show the quantized note selected for each
 active channel in the format of `channelNumber[NoteName OctaveNumber]`
 
-![Note Readout](/images/nonaquant-readout.png)
+![Note Readout](/DanTModules-Manual/images/nonaquant-readout.png)

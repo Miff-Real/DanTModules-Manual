@@ -13,7 +13,7 @@ weight: 10
 
 Chromakey is a resizable & recolourable blank panel
 
-![Chromakey](/images/chromakey.png)
+![Chromakey](/DanTModules-Manual/images/chromakey.png)
 
 ### Basic Operation
 
@@ -21,8 +21,8 @@ Once added to a patch, Chromakey can be resized by dragging either side of the p
 
 The context menu has an option that allows you to save the current width as the default
 
-By default, the panel colour will be set to the values of the [Chromagica](/manual/chromagica/)
-module
+By default, the panel colour will be set to the values of the
+[Chromagica](/DanTModules-Manual/manual/chromagica/) module
 
 There is a context menu option that will allow you to lock in the current colour of the panel, so
 that further changes on the Chromagica module do not affect this instance of Chromakey

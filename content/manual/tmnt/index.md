@@ -21,13 +21,13 @@ weight: 2
 
 **`34hp`**
 
-[Alt TMNT documentation PDF](/images/tmnt.pdf) generously created by the most excellent
-[Worker 13](https://community.vcvrack.com/u/worker_13/summary)
+[Alt TMNT documentation PDF](/DanTModules-Manual/images/tmnt.pdf) generously created by the most
+excellent [Worker 13](https://community.vcvrack.com/u/worker_13/summary)
 
 TMNT is a contrived acronym for "Timed Mutating Non-Linear Triggers", which is meant to describe the
 focus of this module as type of sequencer.
 
-![TMNT](/images/tmnt.png)
+![TMNT](/DanTModules-Manual/images/tmnt.png)
 
 The components of the module are (left to right, top to bottom):
 
@@ -265,7 +265,7 @@ This module is not currently compatible with VCV Rack's Polyphonic cables.
 
 Image provided by [@rsmus7](https://community.vcvrack.com/u/rsmus7)
 
-![TMNT Annotated](/images/tmnt-annotated-by-rsmus7.png)
+![TMNT Annotated](/DanTModules-Manual/images/tmnt-annotated-by-rsmus7.png)
 
 **Inputs & Controls**
 

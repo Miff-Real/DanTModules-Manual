@@ -16,7 +16,7 @@ weight: 7
 Bright Idea is a module to CV control the Cable Opacity & Tension, Room Brightness, and Light Bloom
 of VCV Rack.
 
-![Bright Idea](/images/brightidea.png)
+![Bright Idea](/DanTModules-Manual/images/brightidea.png)
 
 ### Basic Operation
 
@@ -33,7 +33,7 @@ Tweaking the knobs will now directly change the settings
 The CV input for `AC` will toggle the active state on triggers `> 0 volts`
 
 All the other CV inputs works as per the typical plugin **Param Behaviour** & **CV Input Slew**
-options, see [WAVULIKE#module-options](/manual/wavulike#module-options)
+options, see [WAVULIKE#module-options](/DanTModules-Manual/manual/wavulike#module-options)
 
 Only one instance of the module can control the VCV Rack settings, if other instances are added to a
 patch they will become **Zombified** as indicated by the dynamic text on the light-bulb, which also
