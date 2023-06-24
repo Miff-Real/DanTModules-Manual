@@ -1,0 +1,68 @@
+baseURL = "/"
+theme = "hugo-whisper-theme"
+languageCode = "en-gb"
+title = "DanTModules"
+
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
+
+# Controls how many words are printed in the content summary on the docs homepage.
+# See https://gohugo.io/content-management/summaries/
+summaryLength = 10
+
+[[menu.main]]
+    name = "About"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "DanTModules"
+    url = "https://library.vcvrack.com/DanTModules"
+    weight = 2
+
+[[menu.main]]
+    name = "Manual"
+    url = "/manual/"
+    weight = 3
+
+[[menu.main]]
+    name = "Forum"
+    url = "https://github.com/Miff-Real/DanTModules-Manual/discussions"
+    weight = 4
+
+[[menu.main]]
+    name = "Issues"
+    url = "https://github.com/Miff-Real/DanTModules-Manual/issues"
+    weight = 5
+
+[[menu.main]]
+    name = "Donate"
+    url = "https://monzo.me/danieltilley2"
+    weight = 6
+
+[params]
+  homepage_button_link = '/manual/'
+  homepage_button_text = 'RTFM'
+  homepage_intro = 'DanTModules is a free plugin for VCV Rack 2 continaing modules created by DanT.'
+  homepage_image = '/images/dantmodules.png'
+
+  ## You can enable to add anchor links to header elements
+  # enable_anchor_link = true
+
+  [params.homepage_meta_tags]
+    meta_description = "Manual for the VCV Rack 2 plugin DanTModules."
+    meta_og_title = "DanTModules Manual"
+    meta_og_type = "website"
+
+  [params.logo]
+      mobile = "/images/DANT-Logo.svg"
+      standard  = "/images/DANT-Logo.svg"
+
+  [params.footer]
+    copyright_text = ''
