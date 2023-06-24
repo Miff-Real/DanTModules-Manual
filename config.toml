@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://miff-real.github.io/DanTModules-Manual/"
 theme = "hugo-whisper-theme"
 languageCode = "en-gb"
 title = "DanTModules"
