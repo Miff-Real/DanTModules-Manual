@@ -4,6 +4,7 @@ date: 2018-11-28T15:14:39+10:00
 weight: 1
 ---
 
+- [Neon-Oblique Modules](#neon-oblique-modules)
 - [Nu-Metal Modules](#nu-metal-modules)
   - [Nu-Metal settings](#nu-metal-settings)
   - [Nu-Metal Controls \& Concepts](#nu-metal-controls--concepts)
@@ -19,6 +20,12 @@ weight: 1
     - [Attenuate](#attenuate)
   - [CV Input Slew](#cv-input-slew)
   - [Clamp CV Values](#clamp-cv-values)
+
+## Neon-Oblique Modules
+
+* Neon-Oblique modules were introduced as of plugin version `2.4.30`
+* Neon-Oblique modules are *EXPERIMENTAL*, as such there is little to no documentation and module
+  features & functions are subject to change
 
 ## Nu-Metal Modules
 
