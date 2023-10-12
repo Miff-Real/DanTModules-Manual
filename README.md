@@ -1,3 +1,5 @@
+[![Miff-Real's GitHub stats](https://github-readme-stats.vercel.app/api?username=Miff-Real)](https://github.com/anuraghazra/github-readme-stats)
+
 # [DanTModules - Manual](https://miff-real.github.io/DanTModules-Manual/)
 
 # [DanTModules VCV Rack Library](https://library.vcvrack.com/DanTModules)
