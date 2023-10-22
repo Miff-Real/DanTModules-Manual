@@ -6,6 +6,7 @@ weight: 10
 
 - [Overview](#overview)
   - [Basic Operation](#basic-operation)
+  - [Colour \& RGB Lock](#colour--rgb-lock)
 
 ## Overview
 
@@ -35,3 +36,13 @@ brightness setting
 
 This module is designed to enable you to create chroma-key effects (aka green-screen) in video
 streaming or editing software
+
+### Colour & RGB Lock
+
+The context menu also includes the `Lock Colour` and `Lock RGB`options.
+
+When `Lock Colour` is enabled, the ARGB values will no longer be controlled by the Chromagica
+module.
+
+`Lock RGB` works in the same way except the A value is still alterable, allowing you to dim the
+colour of the module.
