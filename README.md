@@ -14,4 +14,4 @@
 
 # [DanTModules Issues](https://github.com/Miff-Real/DanTModules-Manual/issues)
 
-# [Donate](https://monzo.me/danieltilley2)
+# [Donate]([https://monzo.me/danieltilley2](https://ko-fi.com/dantsynth))
