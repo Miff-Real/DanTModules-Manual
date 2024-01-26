@@ -28,5 +28,12 @@ I would love to see anything you create with this plugin, tag your creations wit
 
 ## Tips & Donations Welcome
 
-**If you feel generous or want to motivate me to further develop this plugin, you may
-[donate here](https://monzo.me/danieltilley2).**
+## Join the DanT Beta Test Team
+
+If you would like to help me develop this plugin, give feedback, report bugs, or just buy me an
+energy drink, you can do all that and more on [ko-fi.com/dantsynth](https://ko-fi.com/dantsynth)
+
+You can find more information about the DanT Beta Test Team
+[here](https://ko-fi.com/post/What-Why-When-DanT-Beta-Testers-Team-F1F8TCK55) and in this video: 
+
+https://youtu.be/0pDAMfwEj3g
