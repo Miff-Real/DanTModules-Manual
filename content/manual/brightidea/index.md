@@ -16,7 +16,7 @@ weight: 7
 Bright Idea is a module to CV control the Cable Opacity & Tension, Room Brightness, and Light Bloom
 of VCV Rack.
 
-![Bright Idea](/DanTModules-Manual/images/brightidea.png)
+![Bright Idea](https://library.vcvrack.com/screenshots/200/DanTModules/BrightIdea.png)
 
 ### Basic Operation
 
@@ -29,6 +29,9 @@ Tweaking the knobs will now directly change the settings
 * `CT` = Cable Tension
 * `RB` = Room Brightness
 * `LB` = Light Bloom
+* `DP` = Dark Panels (Pressing the button will toggle the Rack View setting)
+* `Lock` = Rack View setting `Modules > Lock positions`
+* `Arrows` = Rack View setting `Modules > Smart rearrangement`
 
 The CV input for `AC` will toggle the active state on triggers `> 0 volts`
 
@@ -57,6 +60,12 @@ indicates when the module is inactive
 *  **Module Browser Deactivation** on by default - This option will temporarily deactivate the
    module while the module browser is open. Note, this is independent of the Active Toggle button &
    CV.
+
+*  **Keyboard Shortcuts**
+   *  **Lock modules** `Shift + L` by default - The keyboard shortcut that will toggle the Rack
+      View setting `Modules > Lock positions`. Sub menu allows remapping.
+   *  **Smart rearrangement** `Shift + S` by default - The keyboard shortcut that will toggle the
+      Rack View setting `Modules > Smart rearrangement`. Sub menu allows remapping.
 
 #### Option Interactions
 

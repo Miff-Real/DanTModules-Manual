@@ -21,7 +21,7 @@ Bug reports & feedback can be submitted on the [DanTModules discussion board](ht
 This module produces bell-like sounds using a combination of waveforms, frequencies, filters,
 envelopes and effects.
 
-![MOAR COWBELL!](/DanTModules-Manual/images/moarcowbell.png)
+![MOAR COWBELL!](https://library.vcvrack.com/screenshots/200/DanTModules/MoarCowbell.png)
 
 The way in which these frequencies interact is not linear and can be a bit temperamental, extreme
 modulation is not recommended.

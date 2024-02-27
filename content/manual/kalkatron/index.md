@@ -15,7 +15,7 @@ weight: 13
 
 Kalkatron, documentation TBD.
 
-![NuMetal-Kalkatron](/DanTModules-Manual/images/kalkatron.png)
+![NuMetal-Kalkatron](https://library.vcvrack.com/screenshots/200/DanTModules/Kalkatron.png)
 
 ### Controls
 

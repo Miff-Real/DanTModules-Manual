@@ -27,7 +27,7 @@ excellent [Worker 13](https://community.vcvrack.com/u/worker_13/summary)
 TMNT is a contrived acronym for "Timed Mutating Non-Linear Triggers", which is meant to describe the
 focus of this module as type of sequencer.
 
-![TMNT](/DanTModules-Manual/images/tmnt.png)
+![TMNT](https://library.vcvrack.com/screenshots/200/DanTModules/TMNT.png)
 
 The components of the module are (left to right, top to bottom):
 

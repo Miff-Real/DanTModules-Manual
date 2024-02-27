@@ -14,7 +14,7 @@ weight: 10
 
 Chromakey is a resizable & recolourable blank panel
 
-![Chromakey](/DanTModules-Manual/images/chromakey.png)
+![Chromakey](https://library.vcvrack.com/screenshots/200/DanTModules/Chromakey.png)
 
 ### Basic Operation
 

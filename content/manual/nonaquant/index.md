@@ -15,7 +15,7 @@ weight: 8
 
 Nonaquant is a 16 channel polyphonic 9 octave quantizer
 
-![Nonaquant](/DanTModules-Manual/images/nonaquant.png)
+![Nonaquant](https://library.vcvrack.com/screenshots/200/DanTModules/Nonaquant.png)
 
 ### Basic Operation
 

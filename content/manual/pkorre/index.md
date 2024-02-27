@@ -13,7 +13,7 @@ weight: 4
 
 pKorre is a phase correlation meter and CV generator.
 
-![pKorre](/DanTModules-Manual/images/pkorre.png)
+![pKorre](https://library.vcvrack.com/screenshots/200/DanTModules/PKorre.png)
 
 ### Basic Operation
 

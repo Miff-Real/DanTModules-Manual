@@ -18,7 +18,7 @@ weight: 3
 5Splice is a "window mixer" with up to 5 inputs, 6 different modes, an internal slew and a window
 signal output.
 
-![5Splice](/DanTModules-Manual/images/5splice.png)
+![5Splice](https://library.vcvrack.com/screenshots/200/DanTModules/5Splice.png)
 
 The components of the module are (top to bottom, left to right):
 

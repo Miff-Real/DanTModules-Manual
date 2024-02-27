@@ -13,7 +13,7 @@ weight: 6
 
 Billy G8s is a 5 channel gate generator.
 
-![Billy G8s](/DanTModules-Manual/images/billyg8s.png)
+![Billy G8s](https://library.vcvrack.com/screenshots/200/DanTModules/BillyG8s.png)
 
 ### Basic Operation
 

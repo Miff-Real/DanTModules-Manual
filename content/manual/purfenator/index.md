@@ -16,7 +16,7 @@ Purfenator is a module designed to make creating nice backdrops directly within 
 possible. It was inspired by this [video](https://youtu.be/5FeWTLwftUM?si=liYuLl64j3U93Gbo) from
 [Urs Basteck](https://community.vcvrack.com/u/purf/summary).
 
-![NuMetal-Purfenator](/DanTModules-Manual/images/purfenator.png)
+![NuMetal-Purfenator](https://library.vcvrack.com/screenshots/200/DanTModules/Purfenator.png)
 
 ### Controls
 
@@ -80,6 +80,8 @@ context menu under the `Purf Stylee` heading:
   * `Inside colour rgba` - Controls the colour of the inside of the skiff box.
 
 ## Seizure Trigger [Purfenator Expander]
+
+![NuMetal-SeizureTrigger](https://library.vcvrack.com/screenshots/200/DanTModules/SeizureTrigger.png)
 
 This module is an expander to Purfenator that enables you to control the parameters via CV.
 
