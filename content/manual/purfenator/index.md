@@ -43,6 +43,9 @@ context menu under the `Purf Stylee` heading:
   * `Gradient` - When active the the background will be a linear gradient from top to bottom.
   * `Colour rgba` - Controls the colour and transparency of the main background colour.
   * `Gradient rgba` - Controls the colour and transparency of the secondary gradient colour.
+  * `Gradient Type` - Choose between Linear, Radial or Box gradient.
+  * `Gradient Controls` - Control the gradients start and end, direction for linear, position for radial, and radius &
+    range for box.
 * `Image Background` - Creates a layer that can render an image.
   * ` - Load image` - Opens an OS file dialog where you can select an image file.
   * `Draw background` - Activate and deactivates this element.
@@ -129,6 +132,12 @@ The channel map for the polyphonic inputs is as follows:
    * `08` - Gradient Green
    * `09` - Gradient Blue
    * `10` - Gradient Alpha
+   * `11` - Gradient Start
+   * `12` - Gradient End
+   * `13` - Radial Gradient X
+   * `14` - Radial Gradient Y
+   * `15` - Box Gradient Radius
+   * `16` - Box Gradient Range
 
  * **Image Background parameters**
    * `01` - Draw background
